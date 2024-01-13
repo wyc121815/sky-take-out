@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tA52PTCeZZ5A5Qt5gFh
     access-key-secret: biL6MCuE4m0KmO7SbaHHFZ8SARI6qh
     bucket-name: wei-tlais
+  redis:
+    host: localhost
+    port: 6379
+    password: wyc121815
+    database: 0
