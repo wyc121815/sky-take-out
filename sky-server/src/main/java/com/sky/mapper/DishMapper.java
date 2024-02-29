@@ -44,8 +44,8 @@ public interface DishMapper {
      */
     @Select("select * from dish where id=#{id}")
     Dish getById(Long id);
-
     /**
+
      *
      * 根据主键删除
      * @param id
