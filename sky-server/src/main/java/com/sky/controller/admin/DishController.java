@@ -55,6 +55,7 @@ public class DishController {
     @DeleteMapping
     @ApiOperation("菜品批量删除")
     public Result delete(@RequestParam List<Long> ids){
+        //接收数组参数必须采用@RequestParam
         log.info("菜品删除，{}",ids);
         dishService.deleteBatch(ids);
         //清理缓存数据所有数据，删除不能使用通配符
